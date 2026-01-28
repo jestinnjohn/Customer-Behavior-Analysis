@@ -35,7 +35,7 @@ Previous purchases
 
 🛠️ Tools and Technologies
 
-🐍 Python (pandas, numpy, matplotlib, seaborn)
+🐍 Python (pandas, numpy)
 
 🗄️ PostgreSQL (SQL analysis)
 
