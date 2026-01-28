@@ -1,49 +1,25 @@
-# Customer-Behavior-Analysis
-Customer behavior analysis in sales using numpy,pandas ,sql and power Bi
 📊 Customer Behavior Analysis
+🧩 Business Problem
 
-End-to-End Data Analytics Internship Project
+A retail company aims to understand customer shopping behavior in order to improve sales performance, customer satisfaction, and long-term loyalty.
+Recent changes in purchasing patterns across demographics, product categories, discounts, subscriptions, and shipping preferences require data-driven analysis to support strategic decisions.
 
-🔍 Business Problem
-
-A retail company wants to better understand customer shopping behavior to improve:
-
-Sales performance
-
-Customer satisfaction
-
-Long-term loyalty
-
-Management observed changing purchase patterns across:
-
-Demographics (age, gender)
-
-Product categories
-
-Discounts & subscriptions
-
-Shipping preferences
-
-🎯 Core Business Question
-
-How can consumer shopping data be leveraged to identify trends, improve customer engagement, and optimize marketing and product strategies?
-
-📄 Detailed problem statement available in:
-Business_Problem_Document.pdf
+🎯 Business Question
+How can consumer shopping data be used to identify trends, improve customer engagement, and optimize marketing and product strategies?
 
 📂 Dataset Overview
 
-Transactions Analyzed: 3,900
+📌 Total transactions: 3,900
 
-Features per Transaction: 18
+📌 Attributes per transaction: 18
 
-Missing Values: 37 (Review Rating column only)
+📌 Missing values: 37 (Review Rating column only)
 
-Key Fields
+🔑 Key Fields
 
-Customer ID, Age, Gender
+Customer demographics (age, gender)
 
-Product category & item
+Product category and item purchased
 
 Purchase amount
 
@@ -57,78 +33,72 @@ Shipping type
 
 Previous purchases
 
-🛠️ Tools & Technologies
+🛠️ Tools and Technologies
 
-Python: pandas, numpy, matplotlib, seaborn
+🐍 Python (pandas, numpy, matplotlib, seaborn)
 
-SQL: PostgreSQL
+🗄️ PostgreSQL (SQL analysis)
 
-Power BI: Interactive dashboards
+📊 Power BI (dashboard and visualization)
 
-Jupyter Notebook: Data cleaning & EDA
+📓 Jupyter Notebook (data preparation and EDA)
 
-PowerPoint / Gamma: Business presentation
-
-GitHub: Version control & documentation
+📑 PowerPoint (project presentation)
 
 🔄 Project Workflow
-1️⃣ Data Preparation (Python)
+🧹 Data Preparation (Python)
 
 Loaded raw CSV data using pandas
 
-Handled missing values (median imputation by category)
+Handled missing values using median imputation by product category
 
 Removed duplicates and corrected data types
 
-Created new features:
+Created derived features such as age groups and purchase frequency
 
-Age groups
-
-Purchase frequency metrics
-
-2️⃣ Data Analysis (SQL)
+🧮 Data Analysis (SQL)
 
 Loaded cleaned data into PostgreSQL
 
-Performed business-driven SQL analysis using:
+Executed SQL queries using aggregations, subqueries, CTEs, and window functions
 
-Aggregations
+Performed customer segmentation and revenue analysis
 
-Subqueries
+📈 Visualization (Power BI)
 
-CTEs
+Built an interactive dashboard to analyze:
 
-Window functions
+Revenue trends
 
-3️⃣ Visualization (Power BI)
+Customer segments
 
-Built an interactive dashboard for stakeholders
+Product performance
 
-Visualized KPIs, trends, and customer segments
+Demographic patterns
 
-4️⃣ Reporting & Presentation
+📝 Reporting
 
-Created a structured business report
+Prepared a structured business problem document
 
-Designed an executive-ready PPT summarizing insights and recommendations
+Created a presentation summarizing insights and recommendations
 
-🧮 SQL Analysis (Business Use Cases)
+🧾 SQL Analysis Scope
 
-SQL queries were written to answer real business questions, including:
+The SQL analysis covers:
 
 Revenue comparison by gender
 
-High-spending customers using discounts
+Identification of high-spending customers using discounts
 
 Top products by average review rating
 
-Impact of shipping type on purchase value
+Comparison of purchase amounts by shipping type
 
-Subscription vs non-subscription spending
+Subscription vs non-subscription spending behavior
 
 Discount dependency by product
 
-Customer segmentation (New / Returning / Loyal)
+Customer segmentation (New, Returning, Loyal)
 
 Top products within each category
 
@@ -136,63 +106,43 @@ Subscription behavior of repeat buyers
 
 Revenue contribution by age group
 
-📁 SQL logic included in repository
+📌 Key Insights
 
-📈 Key Insights
+Loyal customers account for the majority of total purchases
 
-Loyal customers (~80%) dominate the customer base, showing strong retention
+Male customers contribute a higher share of total revenue
 
-Male customers contribute ~68% of total revenue
+Gloves, sandals, and boots receive the highest average ratings
 
-Top-rated products:
+A large portion of repeat buyers are not subscribed
 
-Gloves (3.86⭐)
-
-Sandals (3.84⭐)
-
-Boots (3.82⭐)
-
-958 repeat buyers (5+ purchases) are not subscribed, indicating strong upsell potential
-
-Average spend is nearly identical between subscribers and non-subscribers
+Average purchase value is similar for subscribed and non-subscribed customers
 
 📊 Power BI Dashboard
 
-Key Metrics
+👥 Total customers: 3.9K
 
-Total Customers: 3.9K
+💰 Average purchase value: 59.76
 
-Average Purchase Value: $59.76
+⭐ Average rating: 3.75
 
-Average Rating: 3.75
-
-Dashboard Features
-
-Customer segmentation (New / Returning / Loyal)
-
-Revenue by gender and age group
-
-Product performance by ratings
-
-Interactive filters for deeper insights
+Interactive filters are available for customer segments, demographics, and product categories.
 
 📁 File: customer behavior.pbix
 
-📑 Business Presentation
+📁 Project Files
 
-A professional stakeholder presentation covering:
+📓 Python notebooks for data cleaning and analysis
 
-Business problem & objectives
+🧮 SQL scripts for business queries
 
-Data preparation approach
+📊 Power BI dashboard (.pbix)
 
-Key insights from analysis
+📄 Business problem document (PDF)
 
-Strategic recommendations
+📑 Project presentation (PPT)
 
-📁 File: Customer-Shopping-Behavior-Analysis.pptx
-
-▶️ How to Run the Project
+▶️ How to Run
 git clone https://github.com/jestinnjohn/Customer-Behavior-Analysis.git
 pip install pandas numpy matplotlib seaborn
 jupyter notebook
@@ -200,18 +150,9 @@ jupyter notebook
 
 Run SQL queries in PostgreSQL
 
-Open Power BI dashboard (.pbix)
+Open the Power BI dashboard file
 
-Review insights via PPT & PDF
-
-🎯 Why This Project Is Internship-Ready
-
-✔ Real-world business problem
-✔ End-to-end analytics workflow
-✔ Python + SQL + Power BI combined
-✔ Business-focused insights & recommendations
-✔ Dashboard + presentation deliverables
-✔ Clean, recruiter-friendly documentation
+Review findings in the PDF and PPT
 
 👤 Author
 
@@ -221,5 +162,3 @@ Jestin John
 🔗 GitHub: https://github.com/jestinnjohn
 
 🔗 LinkedIn: https://www.linkedin.com/in/jestin-john-5b4079295
-
-⭐ This project reflects my ability to work with real data, business questions, and analytics tools in an internship environment.
